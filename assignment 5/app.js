@@ -600,3 +600,61 @@
 // }else if (sign=== "%"){
 //     alert(num1/num2*100 + "%")
 // }
+
+
+
+// IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS
+// Assignment # 12-13
+
+// 1. Write a program that takes a character (number or string)
+// in a variable & checks whether the given input is a
+// number, uppercase letter or lower case letter. (Hint: ASCII
+// codes:- A=65, Z=90, a=97, z=122).
+
+// 2. Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+
+// var a = +prompt("Enter first interger:")
+// var b = +prompt("Enter second nterger:")
+
+// if(a==b){
+//     document.write("Both intergers are equal")
+// }
+// else if(a>b){
+//     document.write(a + " " + "is larger")
+// }
+// else if(b>a){
+//     document.write(b + " " + "is larger")
+// }
+
+// 3. Write a program that takes input a number from user &
+// state whether the number is positive, negative or zero.
+
+// var a = +prompt("Enter the number:")
+
+// if(a<=-1){
+//     document.write("Number is negative")
+// }
+// else if(a>=1){
+//     document.write("Number is positive")
+// }
+// else if(a==0){
+//     document.write("Number is zero")
+// }
+
+// 4. Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel,
+//  false otherwise
+
+var a = prompt("Enter the string:")
+
+if(a===a){
+    document.write("True")
+}   else if (a===e){
+    document.write("True")
+}   else if (a===i){
+    document.write("True")
+}   else if (a===o){
+    document.write("True")
+}   else if (a===u){
+    document.write("True")
+}   else{document.write("False")}
