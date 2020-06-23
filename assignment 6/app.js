@@ -108,4 +108,30 @@
 // c. It must at least 6 characters long If the password does not meet above requirements, 
 //   prompt the user to enter a valid password. For character codes of a-z, A-Z & 0-9, refer to ASCII table at the end of this document.
 
+// // 16. Write a program to convert the following string to an array using string split method.
+// //  var university = “University of Karachi”; Display the elements of array in your browser.
+
+// var university = "University of Karachi";
+// var arr= university.split();
+// document.write(arr)
+
+
+// 17. Write a program to display the last character of a user input.
+
+// var a = prompt("Entery your input");
+// var b = a.charAt(a.length-1);
+// document.write("User input:" + " " + a + "<br>" + "Last character of input:" + " " + b)
+
+
+// 18. You have a string “The quick brown fox jumps over the lazy dog”.
+//  Write a program to count number of occurrences of word “the” in given string.
+
+// var a = "the quick brown fox jumps over the lazy dog";
+// var count = 0;
+// var pos = a.indexOf("the");
+// while(pos > -1){
+//     ++count;
+//     pos = a.indexOf("the", ++pos);
+// }
+// document.write("Text:" + " " + "The quick brown fox jumps over the lazy dog <br> There are" + " " + count +" " + "occurrence(s)"+ "of word 'the'");
 
