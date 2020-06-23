@@ -645,16 +645,16 @@
 // 4. Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel,
 //  false otherwise
 
-var a = prompt("Enter the string:")
+// var a = prompt("Enter the string:")
 
-if(a===a){
-    document.write("True")
-}   else if (a===e){
-    document.write("True")
-}   else if (a===i){
-    document.write("True")
-}   else if (a===o){
-    document.write("True")
-}   else if (a===u){
-    document.write("True")
-}   else{document.write("False")}
+// if(a===a){
+//     document.write("True")
+// }   else if (a===e){
+//     document.write("True")
+// }   else if (a===i){
+//     document.write("True")
+// }   else if (a===o){
+//     document.write("True")
+// }   else if (a===u){
+//     document.write("True")
+// }   else{document.write("False")}
