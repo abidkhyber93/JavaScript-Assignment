@@ -98,4 +98,4 @@
 // After searching, prompt the user whether the given item is found in the list or not. Note: Perform case insensitive search. 
 // Whether the user enters cookie, Cookie, COOKIE or coOkIE, program should inform about its availability. Example:
 
-var A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// var A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
